@@ -3,7 +3,7 @@ function laCajaDePandora(numero) {
   return num % 2 === 0 ? num.toString(2) : parseInt(num).toString(16);
   //cambios
 }
-//datos
+//datos de prueba
 function data() {
   const me = {
     name: "Argiro",
@@ -11,4 +11,5 @@ function data() {
     nationality: "Colombian",
   };
   return me;
+  //// descruo
 }

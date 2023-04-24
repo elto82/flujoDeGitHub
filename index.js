@@ -3,3 +3,12 @@ function laCajaDePandora(numero) {
   return num % 2 === 0 ? num.toString(2) : parseInt(num).toString(16);
   //cambios
 }
+
+function data() {
+  const me = {
+    name: "Argiro",
+    age: 41,
+    nationality: "Colombian",
+  };
+  return me;
+}

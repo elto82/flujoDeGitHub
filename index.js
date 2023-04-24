@@ -6,3 +6,7 @@ function laCajaDePandora(numero) {
     return  (numero).toString(16)
   }
 }
+
+function zulimar() {
+  return {name: "zulimar", age:19, nationality:"venezuelan"}
+}

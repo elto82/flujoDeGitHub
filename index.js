@@ -16,3 +16,11 @@ function laCajaDePandora(numero) {
     return (numero).toString(16)
   }
 }
+
+function samuel(){
+  return datos = {
+    "nombre": "Samuel Bocanegra",
+    "edad": 28,
+    "Nacionaidad": "Peruano"
+  }
+}

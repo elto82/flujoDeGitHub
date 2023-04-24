@@ -1,5 +1,5 @@
 function laCajaDePandora(numero) {
-  // proximamente escribiremos codigo aqui
+
   if(numero % 2 == 0){
     let x=1;
     let binario = 0;
@@ -23,4 +23,26 @@ function samuel(){
     "edad": 28,
     "Nacionaidad": "Peruano"
   }
+
+  return num % 2 === 0 ? num.toString(2) : parseInt(num).toString(16);
+  //cambios
+}
+
+function data() {
+  const me = {
+    name: "Argiro",
+    age: 41,
+    nationality: "Colombian",
+  };
+  return me;
+
+  if(numero % 2 === 0) {
+    return (numero).toString(2)
+  } else {
+    return  (numero).toString(16)
+  }
+}
+
+function zulimar() {
+  return {name: "zulimar", age:19, nationality:"venezuelan"}
 }

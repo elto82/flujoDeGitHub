@@ -1,12 +1,4 @@
 function laCajaDePandora(numero) {
   // proximamente escribiremos codigo aqui
-  if (typeof numero !== "number") {
-    throw new Error("El argumento debe ser un número");
-  }
-
-  if (numero % 2 === 0) {
-    return numero.toString(2);
-  } else {
-    return numero.toString(16);
-  }
+  return num % 2 === 0 ? num.toString(2) : parseInt(num).toString(16);
 }
